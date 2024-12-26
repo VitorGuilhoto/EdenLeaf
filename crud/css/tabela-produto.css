@@ -1,0 +1,67 @@
+body {
+    background-color: #FAF0E6;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    margin-top: 150px;
+    width: 900px;
+    display: grid;
+    background: #FF7878;
+    /* color: #000; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+.row {
+    display: block;
+}
+
+.cell {
+    display: inline-block;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 162, 162);
+    color: #000;
+    font-size: 10pt;
+    text-align: center !important;
+}
+
+.cod-produto {
+    width: 100px;
+}
+
+.nome {
+    width: 300px;
+}
+
+.preco {
+    width: 60px;
+    text-align: right;
+}
+
+.estoque {
+    width: 100px;
+}
+
+.cod-visual {
+    width: 100px;
+}
+
+.novo_us,
+.novo_us:link,
+.novo_us:visited,
+.novo_us:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:#FF7878;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.novo_us:hover {
+    color: #000;
+    background: rgb(255, 162, 162);
+}

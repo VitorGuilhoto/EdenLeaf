@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" 
+    type="text/css" 
+    href="pesquisa.css">
+</head>
+<body>
+    <div class="pai">
+        <div class="menu">
+            <div class="logo"><img src="logoEdenLeaf.png"></div>
+            <div class="casa"><img src="casa.png"></div>
+            <div class="barrinha"><input type="text"size="50%"></div>
+            <div class="home">Home</div>
+            <div class="produtos">Produtos</div>
+            <div class="perfil">Perfil</div>
+            <div class="sobre">Sobre</div>
+            <div class="carrinho"><img src="carrinho.png"></div>
+            <div class="login"><img src="login.png"></div>
+        </div>
+        <div class="filtro"><label id="titulo">Filtrar por:</label><br>
+            <br><input type="radio" id="rad1" name="filtro" value="maiorp">
+            <label for="rad1">Maior Preço</label><br>
+            <br><input type="radio" id="rad2" name="filtro" value="menorp">
+            <label for="rad2">Menor Preço</label><br>
+            <br><input type="radio" id="rad3" name="filtro" value="maiorrel">
+            <label for="rad3">Maior Relevância</label>
+            <br>
+            <br>
+            Preço:<br><br>
+            <input type="range" id="prec" name="prec" min="1" max="100"value="50"list="preco" oninput="this.nextElementSibling.value = this.value">
+            R$<output>50</output>
+        </div>
+        <div class="principal"> 
+            <div class="dropdown">
+               <input type="text" name="pesq" id="pesq" size="100%" maxlength="20" autofocus placeholder=" O que deseja?"  autocomplete="off">
+                <div class="dropdown-content">
+                  <a href="#"> <label id="txtdrop"><img src="setas.png">Suculenta</label></a>
+                  <a href="#"> <label id="txtdrop"><img src="setas.png">Cacto</label></a>
+                  <a href="#"> <label id="txtdrop"><img src="setas.png">Vaso CTI</label></a>
+                  <a href="#"><label id="txtdrop"><img src="setas.png"> Vaso Informática</label></a>
+                  <a href="#"> <label id="txtdrop"><img src="setas.png">Vaso Mecânica</label></a>
+                  <a href="#"> <label id="txtdrop"><img src="setas.png">Vaso Eletrônica</label></a>
+                </div>
+              </div>
+        </div>
+        <div class="banner"></div>
+    </div>
+</body>
+</html>

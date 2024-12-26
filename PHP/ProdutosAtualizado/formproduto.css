@@ -1,0 +1,28 @@
+.principal{
+  grid-area:body;
+}
+form{
+  width:45%;
+  font-size: 20px;
+  border-radius: 15px;
+  margin-top:3%;
+  background-color: #BDDE8E;
+  padding-bottom:1%;
+}
+input{
+  width: 60%;
+  height: 5%;
+  margin:1%;
+  font-size: 15px;
+}
+.enviar{
+  width:30%;
+  font-size: 15px;
+  height:5%;
+}
+.pai{
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-rows: 10vh 75vh 10vh;
+  grid-template-areas:"menu" "body" "banner";
+}

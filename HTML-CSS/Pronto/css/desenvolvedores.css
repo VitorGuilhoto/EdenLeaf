@@ -1,0 +1,248 @@
+.pai{
+    display:grid;
+    grid-template-columns:25% 50% 25%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas:"menu menu menu" "principal principal principal" "banner banner banner";
+}
+
+.principal
+{
+    grid-area:principal;
+    background-color:#ffffff;
+    display: grid;
+    border-radius: 20px;
+    margin: 0% 20% 5% 20%;
+    padding-top:25px;
+    padding-bottom:60px;
+    grid-template-columns: 100%; 
+    grid-template-rows:20vh 20vh 20vh 20vh 20vh; 
+    gap:70px ;
+    justify-content: center;
+    grid-template-areas: "pess1 " "pess2 " " pess3 " "  pess4 " "pess5"  ;
+}
+.pess1{
+    grid-area:pess1;
+    background-color: #BDDE8E;
+    border:solid black 1px;
+    display:grid;
+    grid-template-columns:40% 60%;
+    grid-template-areas: "foto1 nome1";
+    padding:1% 0% 21% 1%;
+}
+.pess2{
+    grid-area:pess2;
+    border:solid black 1px;
+    display:grid;
+    grid-template-columns:40% 60%;
+    grid-template-areas: "foto2 nome2";
+    padding:1% 0% 21% 1%;
+    background-color: #BDDE8E;
+}
+.pess3{
+    grid-area:pess3;
+    border:solid black 1px;
+    display:grid;
+    grid-template-columns:40% 60%;
+    grid-template-areas: "foto3 nome3";
+    padding:1% 0% 21% 1%;
+    background-color: #BDDE8E;
+}
+.pess4{
+    grid-area:pess4;
+    border:solid black 1px;
+    display:grid;
+    grid-template-columns:40% 60%;
+    grid-template-areas: "foto4 nome4";
+    padding:1% 0% 21% 1%;
+    background-color: #BDDE8E;
+}
+.pess5{
+    grid-area:pess5;
+    border:solid black 1px;
+    display:grid;
+    grid-template-columns:40% 60%;
+    grid-template-areas: "foto5 nome5";
+    padding:1% 0% 21% 1%;
+    background-color: #BDDE8E;
+}
+.principal img{
+    width:150px;
+    height:150px;
+    padding:10%;
+    border-radius: 20px;
+    
+}
+.foto1
+{
+    grid-area: foto1;
+    width:120px;
+    height:110px;
+    background-color:#16A654;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+.foto1:hover{
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+.foto2
+{
+    grid-area: foto2;
+    width:120px;
+    height:110px;
+    background-color:#16A654;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+.foto2:hover{
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+.foto3
+{
+    grid-area: foto3;
+    width:120px;
+    height:110px;
+    background-color:#16A654;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+.foto3:hover{
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+.foto4
+{
+    grid-area: foto4;
+    width:120px;
+    height:110px;
+    background-color:#16A654;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+.foto4:hover{
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+.foto5
+{
+    grid-area: foto5;
+    width:120px;
+    height:110px;
+    background-color:#16A654;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+.foto5:hover{
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+.nome1
+{
+    grid-area: nome1;
+    color:rgb(0, 0, 0);
+    margin: 10% 0% 10% 0%;
+    font-family:arial;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+.nome1:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.nome2
+{
+    grid-area: nome2;
+    color:rgb(0, 0, 0);
+    margin: 10% 0% 10% 0%;
+    font-family:arial;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+.nome2:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+
+
+.nome3
+{
+    grid-area: nome3;
+    color:rgb(0, 0, 0);
+    margin: 10% 0% 10% 0%;
+    font-family:arial;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+.nome3:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+
+
+.nome4
+{
+    grid-area: nome4;
+    color:rgb(0, 0, 0);
+    margin: 10% 0% 10% 0%;
+    font-family:arial;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+.nome4:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+
+
+.nome5
+{
+    grid-area: nome5;
+    color:rgb(0, 0, 0);
+    margin: 10% 0% 10% 0%;
+    font-family:arial;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+}
+.nome5:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+
+.principal div{
+    justify-content:center;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+#email:link {
+        color: blue;
+        text-decoration: none;
+      }
+      
+#email:visited {
+        color: purple;
+        text-decoration: none;
+      }

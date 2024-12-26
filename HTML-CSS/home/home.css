@@ -1,0 +1,181 @@
+*{
+    padding:0% 0% 0% 0%;
+    margin:0% 0% 0% 0%;
+    font-family:Arial;
+}
+
+
+a{
+    color: black;
+}
+.hero
+{
+    grid-area: hero;
+    background-color: #dbe6cb;
+    padding:10%;
+}
+.descricao
+{
+    color:black;
+    background-color:#BDDE8E;
+    font-family:arial;
+    margin-left:15px;
+    margin-right:15px;
+    padding:2%;
+    border-radius:10px;
+    text-align:justify
+}
+
+.video
+{
+    margin-top:3%;
+}
+
+#grande
+{
+    width:1500px;
+    height: 215px;
+    border-radius:10px;
+    margin-right:2%;
+    margin-left:2%;
+}
+#pequena
+{
+    width:200px;
+    height:200px;
+    border-radius:10px;
+    margin:3px;
+}
+.foto1
+{
+    grid-area: foto1;
+    margin-top:70px;
+    color:white;
+    font-family:arial;
+}
+.foto2
+{
+    grid-area: foto2;
+    margin-left:8px;
+    margin-top:70px;
+    color:white;
+    font-family:arial;
+}
+.foto3
+{
+    grid-area: foto3;
+    margin-top:70px;
+    margin-left:8px;
+    color:white;
+    font-family:arial;
+}
+.propaganda
+{
+    grid-area: propaganda;
+    margin-top:0px;
+    background-image: url("propaganda.jpg");
+    background-repeat: no-repeat;
+    background-position: top; 
+    box-shadow: 10px 10px 15px black;
+    color:white;
+    height:215px;
+    border-radius:10px;
+    font-family:arial;
+    text-align:center;
+    margin:5px;
+}
+
+.propaganda p
+{
+   
+        font-size: 250%;
+        font-family: serif;
+        padding-top: 20%;
+        color: white;
+        text-align: center;
+        animation: animate 
+            1.5s linear infinite;
+   
+}
+
+
+.texto1
+{
+    grid-area: texto1;
+    color:black;
+    font-family:arial;
+    background-color: #dbe6cb;
+    margin-left:12%;
+    margin-right:12%;
+    margin-top:5%;
+    border-radius:10px;
+}
+.texto2
+{
+    grid-area: texto2;
+    
+    color:black;
+    font-family:arial;
+    background-color: #dbe6cb;
+    margin-left:15%;
+    margin-right:12%;
+    margin-top:5%;
+    border-radius:10px;
+}
+.texto3
+{
+    grid-area: texto3;
+   
+    color:black;
+    font-family:arial;
+    background-color: #dbe6cb;
+    margin-left:15%;
+    margin-right:12%;
+    margin-top:5%;
+    border-radius:10px;
+}
+.juntar
+{
+    grid-area: juntar;
+    background-color: #dbe6cb;
+    margin-top:3%;
+    margin-bottom:3%;
+    margin-left:1%;
+}
+.container1
+{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3% ; 
+    grid-template-rows: 18vh 35vh 45vh 10vh 65vh; 
+    grid-template-areas: "header header header" " hero hero hero"" foto1 foto2 foto3" " texto1 texto2 texto3" "juntar juntar juntar";
+}
+
+.container1 div{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+.nav{
+    grid-area: nav;
+    background-color: #BDDE8E;
+    
+}
+
+.dev{
+    grid-area: dev;
+    background-color: #BDDE8E;
+}
+
+.navv{
+    grid-area: navv;
+    background-color: #BDDE8E;
+}
+
+.devv{
+    grid-area: devv;
+    background-color: #BDDE8E;
+    font-size: smaller;
+}
+

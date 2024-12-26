@@ -1,0 +1,132 @@
+body{
+    font-family:Arial;
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+a{
+    color: black;
+}
+
+div{
+    background-color: #BDDE8E;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+div.login{
+    background-color: #BDDE8E;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+div.cadastro{
+    background-color: #BDDE8E;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+div.new_senha{
+    background-color: #BDDE8E;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+div.perfil{
+    background-color: #BDDE8E;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%,-71%);
+    padding: 60px;
+    border-radius: 20px;
+}
+div.perfil>img{
+   width:50px;
+}
+div.perfil1{
+    background-color: #BDDE8E;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(70%,-240%);
+    padding: 60px;
+    border-radius: 20px;
+    margin-top:33%;
+}
+div.perfil1>img{
+    width:70px;
+}
+div.perfil2{
+    background-color: #BDDE8E;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-170%,-272%);
+    padding: 60px;
+    border-radius: 20px;
+    margin-top:33%;
+}
+div.perfil2>img{
+    width:50px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    background-color:lightsteelblue;
+}
+
+input.cadastro{
+    padding: 10px;
+    border: none;
+    background-color:lightsteelblue;
+}
+
+input.numeroe{
+    width: 40px;
+}
+
+button{
+    background-color: #16A654;
+    border:none;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #4F9164;
+}
+
+img{
+    width: 20px;
+}
+
+img.usuario{
+    width: 40px;
+}
+
+
+
+
+

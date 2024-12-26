@@ -1,0 +1,33 @@
+.pagar{
+    grid-area:principal;
+    background-color: #BDDE8E;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding:3%;
+    border-radius: 20px;
+}
+.pagar img{
+    width:10%;
+}
+button{
+    background-color: #16A654;
+    border:none;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #4F9164;
+}
+
+
+.pai{
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-rows: 10vh 85vh 10vh;
+  grid-template-areas:"menu" "principal" "banner";
+}

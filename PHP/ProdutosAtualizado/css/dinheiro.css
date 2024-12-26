@@ -1,0 +1,20 @@
+.dinheiro{
+    grid-area:principal;
+    background-color: #BDDE8E;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding:3%;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.dinheiro img{
+width:50%;
+}
+.pai{
+  display:grid;
+  grid-template-columns:100%;
+  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-areas:"menu" "principal" "banner";
+}

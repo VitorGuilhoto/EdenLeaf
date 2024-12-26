@@ -1,0 +1,67 @@
+.pai{
+  display:grid;
+  grid-template-columns:25% 50% 25%;
+  grid-template-rows: 10vh 95vh 10vh;
+  grid-template-areas:"menu menu menu" "body body body" "banner banner banner";
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+  flex-direction: column;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.divmaior{
+  grid-area: body;
+  margin: 0% 6% 0% 6%;
+  padding: 1% 2% 3% 2%;
+  background-color: white;
+}
+
+.produto1
+{
+  background-color: #BDDE8E; 
+  height: 10vh;
+  width: 1116px;
+  padding-top: 0%;
+  padding-bottom: 10%;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: 17% 44% 20%;
+  grid-template-rows: 5vh 10vh;
+  grid-template-areas:"p1 p3 p3";
+}
+.produto1 div{
+  display: flex;
+  margin-top: 12vh;
+  justify-content: start;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.foto{
+  border-radius: 3%;
+  margin-top: 4vh;
+  margin-left: 4vh;
+  width: 125px;
+  height: 111px;
+}
+.edicao{
+  margin-top: 3vh;
+  margin-left: 145vh;
+  width: 62px;
+  height: 62px;
+}
+.exclusao{
+  margin-top: 3vh;
+  width: 62px;
+  height: 62px;
+  margin-left: 70vh;
+}

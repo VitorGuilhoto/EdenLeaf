@@ -1,0 +1,41 @@
+.password-strength {
+  display: block;
+  position: relative;
+  height: 12px;
+}
+
+.password-strength::after {
+  content: attr(title);
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  transition: width 200ms ease-in-out;
+  text-align: center;
+}
+
+.password-strength[title='Força da senha']::after {
+  background-color: #333;
+  width: 100%;
+}
+
+.password-strength[title='fraca']::after {
+  background-color: #e74c3c;
+  width: 33%;
+}
+
+.password-strength[title='media']::after {
+  background-color: #f1c40f;
+  width: 66%;
+}
+
+.password-strength[title='forte']::after {
+  background-color: #2ecc71;
+  width: 100%;
+}
+
+.medidor{
+    color: rgb(5, 79, 119);
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/pesquisa.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+</head>
+<body>
+    <div class="pai">
+    <a name="top"></a>  
+    <!--Header-->
+        <div class="menu">
+            <div class="logo"><img src="imagens/logoEdenLeaf.png"></div>
+            <div class="home"><a href="home.html"><img src="imagens/casa.png"></div></a>
+            <div class="barrinha"><a href="pesquisa.html"><img src="imagens/barra.png"></div></a>
+            <div class="produtos"><a href="produtos.html">Produtos</a></div>
+            <div class="devs"><a href="desenvolvedores.html">Devs</a></div>
+            <div class="perfil"><a href="perfil.html">Perfil</a></div>
+            <div class="sobre"><a href="sobre.html">Sobre</a></div>
+            <div class="carrinho"><a href="carrinho.html"><img src="imagens/carrinho.png"></a></div>
+            <div class="login"><a href="login.html"><img src="imagens/login.png"></a></div>
+        </div>
+    <!--Fim Header-->
+        <div class="filtro"><label id="titulo">Filtrar por:</label><br>
+            <br><input type="radio" id="rad1" name="filtro" value="maiorp">
+            <label for="rad1">Maior Preço</label><br>
+            <br><input type="radio" id="rad2" name="filtro" value="menorp">
+            <label for="rad2">Menor Preço</label><br>
+            <br><input type="radio" id="rad3" name="filtro" value="maiorrel">
+            <label for="rad3">Maior Relevância</label>
+            <br>
+            <br>
+            Preço:<br><br>
+            <input type="range" id="prec" name="prec" min="1" max="100"value="50"list="preco" oninput="this.nextElementSibling.value = this.value">
+            R$<output>50</output>
+        </div>
+        <div class="principal"> 
+            <div class="dropdown">
+               <input type="text" name="pesq" id="pesq" size="100%" maxlength="20" autofocus placeholder=" O que deseja?"  autocomplete="off">
+                <div class="dropdown-content">
+                  <a href="#"> <label id="txtdrop"><img src="imagens/setas.png">Suculenta</label></a>
+                  <a href="#"> <label id="txtdrop"><img src="imagens/setas.png">Cacto</label></a>
+                  <a href="#"> <label id="txtdrop"><img src="imagens/setas.png">Vaso CTI</label></a>
+                  <a href="#"><label id="txtdrop"><img src="imagens/setas.png"> Vaso Informática</label></a>
+                  <a href="#"> <label id="txtdrop"><img src="imagens/setas.png">Vaso Mecânica</label></a>
+                  <a href="#"> <label id="txtdrop"><img src="imagens/setas.png">Vaso Eletrônica</label></a>
+                </div>
+              </div>
+        </div>
+        
+    <!--Footer-->
+        <div class="banner">
+            <div class="footer-arrow">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M649.97 0L550.03 0 599.91 54.12 649.97 0z" class="shape-fill"></path>
+                </svg>
+            </div>
+            
+            <footer class="main_footer container">
+                
+                <div class="content">
+                    
+                    <div class="colfooter">
+                        
+                        <h4 class="titleFooter"> Navegação </h4>
+                        
+                        <ul>
+                        
+                          <li><a href="home.html" title="Home">Página Inícial</a></li>
+                          <li><a href="produtos.html" title="Produtos">Produtos Disponíveis</a></li>
+                          <li><a href="perfil.html" title="Perfil">Perfl do Usuário</a></li>
+                          <li><a href="sobre.html" title="Sobre">Sobre a Empresa</a></li>
+                        
+                        </ul>
+                    
+                    </div>    
+                    
+                    <div class="colfooter">
+                       
+                       <h4 class="titleFooter">Contato</h4>
+                       <p><i class="icon icon-mail"></i> edenleaf1@gmail.com</p>
+                    
+                    </div>
+                    
+                    <div class="colfooter">
+                       
+                        <a href="desenvolvedores.html"><h4 class="titleFooter"> Desenvolvedores</h4></a>
+                        
+                        <p><span> 26 - Rafael Said Jannini</span></p>            
+                        <p><span> 27 - Raphael Willians Fardin Júnior</span></p>            
+                        <p><span> 28 - Rodrigo Akira Mada</span></p>            
+                        <p><span> 29 - Sofia Ayumi Hirata Isozaki</span></p>  
+                        <p><span> 30 - Vitor Hugo Guilhoto</span></p>  
+                    
+                    </form>
+                    
+                    </div>
+                    
+                    <div class="clear"></div>
+                
+                </div>
+                
+                <div class="main_footer_copy">
+                    
+                    <p class="m-b-footer"><a href= "#top">Voltar ao topo</a> </p> 
+                
+                </div>
+            </footer>
+        </div>
+    <!--Fim Header-->
+    </div>
+</body>
+</html>

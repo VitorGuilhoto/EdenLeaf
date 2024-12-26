@@ -1,0 +1,6 @@
+.pai{
+    display:grid;
+    grid-template-columns:25% 50% 25%;
+    grid-template-rows: 10vh 120vh 10vh;
+    grid-template-areas:"menu menu menu" "body body body" "banner banner banner";
+}
